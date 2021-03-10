@@ -64,9 +64,23 @@
 			<div class="row">
 				<div class="col col-header">
 					<div class="head">
-						<b>10th</b> <span class="idea">World Robotic For Peace</span>
+						<div class="bendera"></div>
+					</div>
+				</div>
+				
+			</div>
+			<div class="row">
+				<div class="col col-header">
+					<div class="title"></div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col col-header">
+					<div class="head">
+						<!-- <div class="bendera"></div> -->
+						<!-- <b>10th</b> <span class="idea">World Robotic For Peace</span>
 						<p class="small_font">In <span class="idea">Development</span></p>
-						<p class="idea" style="font-size: 20px">Maulana Malik Ibrahim State Islamic University Malang </p>
+						<p class="idea" style="font-size: 20px">Maulana Malik Ibrahim State Islamic University Malang </p> -->
 					</div>
 					<div class="tagline">
 						<p>
@@ -74,22 +88,25 @@
 							<span class="text-bold">International Robotic Training and Competition</span>
 						</p>
 					</div>
-					<div class="row row2">
+					<!-- <div class="row row2">
 						<div class="col">
 							<a href="client/rulebook/RULEBOOK Credia.id.pdf">
 								<img class="shadow" src="client/images/home/rulebook-min.png" alt="" width="260px">
 							</a>
 						</div>
-					</div>
+					</div> -->
 					<div class="row row2">
 						<div class="col sponsor">
 							<p>Support By :</p>
+							<div class="sponsors"></div>
 						</div>
 					</div>
 				</div>
+				
 			</div>
 		</div>
 	</header>
+
 	<section id="about-section">
 		<div class="container">
 			<div class="row">
@@ -110,6 +127,207 @@
 			</div>
 		</div>
 	</section>
+	<section id="">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 col-kompetisi">
+					<center>
+						<h1 class="h1-kompetisi"><span class="text-nexa-light">Timeline</span> Events</h1>
+						<hr class="hr-kompetisi"><!-- 
+				</div>
+			</div>
+			<div class="row"> -->
+				<!-- <div style="margin-top: 100px"> -->
+                    <!-- <center><h1 class="h1-kompetisi">Timeline</h1> -->
+                    <!-- <hr class="hr-kompetisi"> -->
+                    </center>
+                    
+                    <div class="row">
+                        <div id="timeline">
+                            <div class="row timeline-movement">
+                                <div class="timeline-badge center-left">
+                                </div>
+                                <div class="col-sm-12 col-md-6  timeline-item">
+                                    <div class="row">
+                                        <div class="col-sm-11">
+                                            <div class="timeline-panel credits  anim animate fadeInLeft">
+                                                <ul class="timeline-panel-ul">
+                                                    <div class="righting-wrap">
+                                                        <li><a href="#" class="importo">Registrasi, Pembayaran dan pengumpulan proposal.</a></li>
+                                                        <li><span class="causale" style="color:#000; font-weight: 600;"><span class="causale">1 September – 10 Oktober 2019</span></span> </li>
+                                                    </div>
+                                                    <div class="clear"></div>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row timeline-movement">
+                                <div class="timeline-badge center-right">
+                                    
+                                </div>
+                                <div class="offset-md-6 col-sm-12 col-md-6   timeline-item">
+                                    <div class="row">
+                                        <div class="col-sm-11">
+                                            <div class="timeline-panel credits  anim animate fadeInLeft">
+                                                <ul class="timeline-panel-ul">
+                                                    <div class="righting-wrap">
+                                                        <li><a href="#" class="importo">Pengumuman Tahap Penyisihan</a></li>
+                                                        <li><span class="causale" style="color:#000; font-weight: 600;"><span class="causale">12 Oktober 2019</span></span> </li>
+                                                    </div>
+                                                    <div class="clear"></div>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row timeline-movement">
+                                <div class="timeline-badge center-left">
+                                    
+                                </div>
+                                <div class="col-sm-12 col-md-6   timeline-item">
+                                    <div class="row">
+                                        <div class="col-sm-11">
+                                            <div class="timeline-panel credits  anim animate fadeInLeft">
+                                                <ul class="timeline-panel-ul">
+                                                    <div class="righting-wrap">
+                                                        <li><a href="#" class="importo">Realisasi Karya</a></li>
+                                                        <li><span class="causale" style="color:#000; font-weight: 600;"><span class="causale">12 Oktober – 25 November 2019</span></span> </li>
+                                                    </div>
+                                                    <div class="clear"></div>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            
+                            <div class="row timeline-movement">
+                                <div class="timeline-badge center-right">
+                                    
+                                </div>
+                                <div class="offset-md-6 col-sm-12 col-md-6  timeline-item">
+                                    <div class="row">
+                                        <div class="col-sm-11">
+                                            <div class="timeline-panel credits  anim animate fadeInLeft">
+                                                <ul class="timeline-panel-ul">
+                                                    <div class="righting-wrap">
+                                                        <li><a href="#" class="importo">Pengumpulan Video Teaser</a></li>
+                                                        <li><span class="causale" style="color:#000; font-weight: 600;"><span class="causale">12 Oktober - 28 November 2019</span></span> </li>
+                                                    </div>
+                                                    <div class="clear"></div>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row timeline-movement">
+                                <div class="timeline-badge center-left">
+                                    
+                                </div>
+                                <div class="col-sm-12 col-md-6   timeline-item">
+                                    <div class="row">
+                                        <div class="col-sm-11">
+                                            <div class="timeline-panel credits  anim animate fadeInLeft">
+                                                <ul class="timeline-panel-ul">
+                                                    <div class="righting-wrap">
+                                                        <li><a href="#" class="importo">Realisasi Karya</a></li>
+                                                        <li><span class="causale" style="color:#000; font-weight: 600;"><span class="causale">12 Oktober – 25 November 2019</span></span> </li>
+                                                    </div>
+                                                    <div class="clear"></div>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row timeline-movement">
+                                <div class="timeline-badge center-right">
+                                    
+                                </div>
+                                <div class="offset-md-6 col-sm-12 col-md-6 timeline-item">
+                                    <div class="row">
+                                        <div class="col-sm-11">
+                                            <div class="timeline-panel credits  anim animate fadeInLeft">
+                                                <ul class="timeline-panel-ul">
+                                                    <div class="righting-wrap">
+                                                        <li><a href="#" class="importo">Pengumpulan Video Teaser</a></li>
+                                                        <li><span class="causale" style="color:#000; font-weight: 600;"><span class="causale">12 Oktober - 28 November 2019</span></span> </li>
+                                                    </div>
+                                                    <div class="clear"></div>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row timeline-movement">
+                                <div class="timeline-badge center-left">
+                                    
+                                </div>
+                                <div class="col-sm-12 col-md-6   timeline-item">
+                                    <div class="row">
+                                        <div class="col-sm-11">
+                                            <div class="timeline-panel credits  anim animate fadeInLeft">
+                                                <ul class="timeline-panel-ul">
+                                                    <div class="righting-wrap">
+                                                        <li><a href="#" class="importo">Konfirmasi kehadiran dalam expo dan penjurian final</a></li>
+                                                        <li><span class="causale" style="color:#000; font-weight: 600;"><span class="causale">25 November 2019</span></span> </li>
+                                                    </div>
+                                                    <div class="clear"></div>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row timeline-movement">
+                                <div class="timeline-badge center-right">
+                                    
+                                </div>
+                                <div class="offset-md-6 col-sm-12 col-md-6 timeline-item">
+                                    <div class="row">
+                                        <div class="col-sm-11">
+                                            <div class="timeline-panel credits  anim animate fadeInLeft">
+                                                <ul class="timeline-panel-ul">
+                                                    <div class="righting-wrap">
+                                                        <li><a href="#" class="importo">Expo dan penjurian</a></li>
+                                                        <li><span class="causale" style="color:#000; font-weight: 600;"><span class="causale">1 Desember 20192019</span></span> </li>
+                                                    </div>
+                                                    <div class="clear"></div>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+   
+
+			</div>
+		</div>
+	</section>
+	<section id="">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 col-kompetisi">
+					<center>
+						<h1 class="h1-kompetisi"><span class="text-nexa-light">Video</span> Events</h1>
+						<hr class="hr-kompetisi">
+				</div>
+			</div>
+			<div class="row">
+    <iframe width="100%" height="420px" src="https://www.youtube.com/embed/t5944G3GEg0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+			</div>
+		</div>
+	</section>
 	<section id="kompetisi-section">
 		<div class="container">
 			<div class="row">
@@ -126,7 +344,7 @@
 							<img src="client/images/home/ico_iot-min.png" alt="" style="max-height: 100px;">
 							<h4 class="card-title">Internet Of Things</h4>
 							<h2 class="text-total-hadiah">Total Hadiah Rp. 13.750.000</h2>
-						<a href="{{base_url('internetOfThings')}}"><button class="btn btn-light btn-kompetisi">Read More...</button></a>
+						<a href="{{base_url('internetOfThings')}}"><button class="btn btn-light btn-kompetisi">Read More...</button></a>												
 						</div>
 					</div>
 				</div>
@@ -136,7 +354,7 @@
 							<img src="client/images/home/ico_game-min.png" alt="" style="max-height: 100px;">
 							<h4 class="card-title">Game Development</h4>
 							<h2 class="text-total-hadiah">Total Hadiah Rp. 10.750.000</h2>
-						<a href="{{base_url('game-development')}}"><button class="btn btn-light btn-kompetisi">Read More...</button></a>
+						<a href="{{base_url('game-development')}}"><button class="btn btn-light btn-kompetisi">Read More...</button></a>						
 						</div>
 					</div>
 				</div>
@@ -148,10 +366,11 @@
 							<h2 class="text-total-hadiah">Total Hadiah Rp. 6.000.000</h2>
 							<a href="{{ base_url('sumo-robot') }}"><button class="btn btn-light btn-kompetisi">Read
 									More...</button></a>
+								
 						</div>
 					</div>
 				</div>
-				<div class="col-md-4 col-xs-12">
+<!-- 				<div class="col-md-4 col-xs-12">
 					<div class="card">
 						<div class="card-body text-center">
 							<img src="client/images/home/ico_linefollower-min.png" alt="{{base_url('line-follower')}}" style="max-height: 100px;">
@@ -182,11 +401,11 @@
 						</div>
 					</div>
 				</div>
-				<!-- </div> -->
+				<!-- </div> --> -->
 			</div>
 		</div>
 	</section>
-	<!-- <section id="gallery-section">
+	<section id="gallery-section">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 col-kompetisi">
@@ -228,7 +447,7 @@
                     </div>
                 </div>
             </div>
-        </section> -->
+        </section>
 	<section id="kontak-section">
 		<div class="container">
 			<div class="row">

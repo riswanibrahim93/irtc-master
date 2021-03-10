@@ -51,8 +51,47 @@ nav.navbar {
 nav.black {
     /*background: rgba(51,51,51,0.5);*/
     /*background: rgba(34,137,147,0.5);*/
-    background: linear-gradient(to right, #3ed0f7, #00b9ff, #009eff, #537ef8, #8d53db);
+    background: linear-gradient(to right, #fd0d0d, #270202);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.bendera{
+    width: 100%;
+    min-height: 70px;
+    background: url('../../../client/images/home/flag.png') no-repeat;
+    background-size: contain;
+    transition-duration: 1.5s;
+}
+.title{
+    width: 100%;
+    min-height: 300px;
+    background: url('../../../client/images/home/title.png') no-repeat;  
+    background-position: center;
+    background-size: contain;
+    transition-duration: 1.5s;
+}
+.sponsors{
+    width: 100px;
+    min-height: 50px;
+    background: url('../../../client/images/home/irtc.png') no-repeat;
+    background-size: contain;
+    transition-duration: 1.5s;
+}
+
+.responsive-video {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 60px; overflow: hidden;
+}
+
+.responsive-video iframe,
+.responsive-video object,
+.responsive-video embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 .navbar-toggler {
@@ -99,8 +138,8 @@ nav.black {
 }
 
 .logo-nav {
-    width: 100px;
-    min-height: 54px;
+    width: 150px;
+    min-height: 50px;
     background: url('../../../client/images/login/logo-irtc.png') no-repeat;
     background-size: cover;
     background-position: center;
@@ -110,7 +149,7 @@ nav.black {
 .logo-nav-white {
     background: url('../../../client/images/login/logo-irtc.png') no-repeat;
     width: 120px;
-    min-height: 54px;
+    min-height: 40px;
     background-size: cover;
     background-position: center;
 }
@@ -118,7 +157,7 @@ nav.black {
 .garis {
     width: 0%;
     height: 2px;
-    background: #40aa6a;
+    background: #270202;
     transition: width 0.5s;
     margin-top: 10px;
 }
@@ -131,16 +170,16 @@ nav.black {
 button.signup {
     font-size: 13px;
     border-radius: 100px;
-    /*background: linear-gradient(to left top, #00a7e6, #00ae92, #40aa6a);	*/
+    /*background: linear-gradient(to left top, #fd0d0d, #00ae92, #270202);	*/
     background: white;
-    color: #51c0f5;
+    color: #fd0d0d;
     transition-duration: 1.3s;
     -webkit-transition-duration: 0.3s;
     -moz-transition-duration: 0.3s;
 }
 
 button.signup:hover {
-    background: #51c0f5;
+    background: #fd0d0d;
     color: #fff;
 }
 
@@ -163,10 +202,10 @@ button.signup:hover {
 
 /* HEADER */
 header#home-section {
-    padding-top: 180px;
+    padding-top: 80px;
     min-height: 695px;
     /*background: linear-gradient(to right bottom, #ffcc33, #ffb846, #ffa659, #ff966c, #fd8b7c);*/
-    background: url('../../../client/images/home/home_.png') no-repeat;
+    /*background: url('../../../client/images/home/home_.png') no-repeat;*/
     background-size: cover;
 }
 
@@ -195,9 +234,9 @@ header#home-section {
 }
 
 .tagline p {
-    border-left: 4px solid #7242d2;
+    border-left: 4px solid #f30000;
     padding: 10px 0px 0px 8px;
-    color: #7242d2;
+    color: #ad0000;
     text-transform: uppercase;
     font-family: nexa_lightregular;
 }
@@ -219,7 +258,7 @@ header#home-section {
 }
 
 .sponsor p {
-    color: #7242d2;
+    color: #c70013;
     margin-top: 20px;
     font-family: nexa_lightregular;
 
@@ -321,7 +360,7 @@ button.head2:hover {
 
 h2.about2 {
     font-family: nexa_boldregular;
-    color: #7242d2;
+    color: #c70013;
 }
 
 .text-nexa-light {
@@ -478,12 +517,12 @@ textarea {
 }
 
 .h1-kompetisi {
-    color: #7242d2;
+    color: #c70013;
     text-align: center;
 }
 
 .sub-h1-kompetisi {
-    color: #ff007f;
+    color: #000000;
     font-size: 25px;
     font-family: 'nexa_lightregular';
     line-height: 1px;
@@ -496,21 +535,21 @@ textarea {
 
 .hr-kompetisi {
     width: 50px;
-    border: 3px solid #ff007f;
+    border: 3px solid #000000;
     border-radius: 50px;
 }
 
 h4.card-title {
     margin-top: 20px;
     margin-bottom: 20px;
-    color: #7242d2;
+    color: #f00;
     font-weight: bold;
 }
 
 .btn-kompetisi {
     padding-left: 50px;
     padding-right: 50px;
-    background: linear-gradient(to right, #06e7fb, #00d3ff, #00bdff, #00a4ff, #0088ff, #4e7aff, #7c66ff, #a549f6, #bd41f6, #d436f6, #ea26f3, #ff00f0);
+    background: linear-gradient(to right, #fd0d0d, #270202);
     color: #fff;
     border-radius: 50px;
     transition-duration: 0.5s;
@@ -2513,7 +2552,7 @@ label.label-judul {
   position: absolute;
   content: " ";
   width: 2px;
-  background-color: #ff18a1;
+  background-color: #000;
   left: 50%;
   margin-left: -1.5px;
 }
@@ -2532,10 +2571,10 @@ label.label-judul {
     top: 0;
     left: 50%;
     margin-left: -13px;
-    background-color: #b31773;
+    background-color: #c70013;
     z-index: 6;
     border-radius: 50%;
-    border: 2px solid #ff18a1;
+    border: 2px solid #000000;
 }
 #timeline .timeline-badge span.timeline-balloon-date-day {
   font-size: 1.4em;
@@ -2565,10 +2604,10 @@ label.label-judul {
     font-size: 1.7em;
     top: -16px;
     margin-left: -60px;
-    border: 2px solid #7242d2;
+    border: 2px solid #000000;
 }
 #timeline .timeline-badge.timeline-future-movement p {
-    color:#7242d2;
+    color:#;
     position: absolute;
     top: 40px;
     left: 32px;
@@ -2582,7 +2621,7 @@ label.label-judul {
 #timeline .timeline-movement {
 /*   border-bottom: dashed 1px #4997cd; */
   position: relative;
-  margin-bottom: 10rem;
+  margin-bottom: 2rem;
 }
 #timeline .timeline-movement.timeline-movement-top {
   height: 60px;
@@ -2597,7 +2636,7 @@ label.label-judul {
   color: #666;
   padding: 10px;
   position: relative;
-  -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+  -webkit-box-shadow: 0 1px 6px #000000;
   box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
 }
 #timeline .timeline-movement .timeline-item .timeline-panel .timeline-panel-ul {
@@ -2654,7 +2693,7 @@ label.label-judul {
     width: 100%;
 }
 #timeline .timeline-movement .timeline-item .timeline-panel.credits .timeline-panel-ul li a.importo  {
-  color: #7242d2;
+  color: #c70013;
   font-size: 1.3em;
   font-weight: 600;
 }
@@ -2662,12 +2701,12 @@ label.label-judul {
   text-align: left;
 }
 #timeline .timeline-movement .timeline-item .timeline-panel.debits .timeline-panel-ul a.importo {
-  color: #7242d2;
+  color: #c70013;
   font-size: 1.3em;
   font-weight: 600;
 }
 .causale {
-    color: #b31773;
+    color: #000000;
 }
 
 /**************Who View Your Profile CSS End Here****************/
@@ -2688,7 +2727,7 @@ label.label-judul {
 }
 
 .text-total-hadiah {
-    color: #ff18a1;
+    color: #000;
     font-size: 20px;
     margin-bottom: 20px;
 }
