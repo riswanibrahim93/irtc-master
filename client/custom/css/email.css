@@ -1,0 +1,51 @@
+* {
+    font-family: arial, "Montserrat", sans-serif;
+    color: #606062;
+}
+
+body {
+    background-color: #eee;
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    font-weight: 500;
+    margin: 30px auto;
+    text-align: justify;
+}
+
+.socials {
+    margin: 15px 5px 0 5px;
+}
+
+.footer p {
+    padding: 0px 32px 0px 32px;
+    font-weight: bold;
+    font-family: arial;
+    font-size: 12px;
+    text-align: center;
+    color: #fff;
+}
+
+@media only screen and (max-width: 640px) {
+    body[yahoo] .deviceWidth {
+        width: 440px !important;
+        padding: 0;
+    }
+
+    body[yahoo] .center {
+        text-align: center !important;
+    }
+}
+
+@media only screen and (max-width: 479px) {
+    body[yahoo] .deviceWidth {
+        width: 280px !important;
+        padding: 0;
+    }
+
+    body[yahoo] .center {
+        text-align: center !important;
+    }
+}
